@@ -27,7 +27,8 @@
 
          }
          
+         String usernamelowercase = username.toLowerCase();
          String passwordlowercase = password.toLowerCase();
-         System.out.println("Your user name is " + username + " and your password is " + passwordlowercase);
+         System.out.println("Your user name is " + usernamelowercase + " and your password is " + passwordlowercase);
     }
  }
